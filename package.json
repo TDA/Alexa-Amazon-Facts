@@ -1,7 +1,7 @@
 {
-  "name": "skill-sample-nodejs-fact",
+  "name": "skill-unofficial-amazon-fact",
   "version": "1.0.0",
-  "description": "A simple country fact skill.",
+  "description": "Unofficial Amazon, Inc. facts skill.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,9 @@
   "keywords": [
     "alexa",
     "skill",
-    "fact"
+    "fact",
+    "amazon",
+    "unofficial amazon"
   ],
   "author": "Sai Pc",
   "license": "Apache-2.0",
