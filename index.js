@@ -78,7 +78,7 @@ var handlers = {
         this.emit(':askWithCard', speechOutput, SKILL_NAME, randomFact)
     },
     'AMAZON.HelpIntent': function () {
-        var speechOutput = "You can say tell me an amazon fact, or, you can say exit... What can I help you with?";
+        var speechOutput = "You can say tell me an amazon fact, or, you can say stop... What can I help you with?";
         var reprompt = "What can I help you with?";
         this.emit(':ask', speechOutput, reprompt);
     },
